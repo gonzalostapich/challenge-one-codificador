@@ -1,0 +1,521 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+}    
+    
+body{
+    background: #d3e2d3;
+    font-family: 'Inter';
+    
+}
+
+
+#pagina {
+    position: relative;
+    min-height: 100%;
+}
+
+  
+
+h1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 144px;
+    height: 44px;
+    left: 90px;
+    top: 40px;
+}
+
+.titulo-pincipal{
+    position: absolute;
+    top: 38px;
+    left: 200px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0A3871;
+    
+}
+
+textarea{
+    position:absolute;
+    display: inline;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    border: none;
+    outline: none;
+}
+
+.textarea1{
+    width: 680px;
+    height: 288px;
+    left: 240px;
+    top: 168px;
+    background: #d3e2d3; 
+    color: #0A3871;
+
+}
+
+.textarea2{
+    width: 336px;
+    height: 460px;
+    left: 1032px;
+    top: 72px;
+    margin-bottom: 40px;
+}
+
+.textarea1::placeholder {
+    color: #0A3871;
+}
+
+.advertencia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    top: 574px;
+
+    width: 205px;
+    height: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    
+
+    color: #495057;
+
+    opacity: 0.8;
+}
+
+#oculta{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 336px;
+    height: 640px;
+    left: 1032px;
+    top: 64px;
+}
+
+#muneco{
+    margin-top: 80px;
+}
+
+#aviso{
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+#sugerencia{
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+
+    color: #495057;
+
+}
+
+
+
+#rectangulo{
+
+    position: absolute;
+    width: 400px;
+    height: 664px;
+    left: 1000px;
+    top: 40px;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    margin-bottom: 40px;
+}
+
+
+button{
+    display: inline;
+    margin-top: 20px;
+   /*padding: 24px;*/
+    gap: 8px;
+    border-radius: 24px;
+    height: 67px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    
+   
+}
+
+.encriptar{
+    position: absolute;
+    top: 608px;
+    left: 240px;
+    width: 328px;
+    color: white;
+    background: #0A3871;
+    border: 1px solid #0A3871;
+   
+}
+
+button:hover{
+    background: #67df81;
+}
+
+.desencriptar{
+    position: absolute;
+    top: 608px;
+    left: 592px;
+    width: 328px;
+    color: #0A3871;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+   
+}
+
+.copiar{
+    position: absolute;
+    text-align: center;
+    width: 336px;
+    left: 1032px;
+    top: 608px;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+
+}
+
+#footer {
+    width: 100%;
+    height: 80px;
+    background: #95b99d;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    
+}
+
+ul{  
+
+padding: 0;
+
+}
+
+nav{
+    position: absolute;
+    width: 100%;
+    top: 18px;
+    height: 55px;
+    
+}
+
+nav img{
+
+    height: 25px;
+    width: 25px;
+
+}
+
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+
+.creador{
+    top: 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: #5e6164;
+}
+
+
+
+
+@media screen and (max-width: 748px) {
+
+
+#pagina {
+    position: relative;
+    min-height: 100%;
+}
+    
+#main {
+    padding-bottom:80px;
+}
+
+h1{
+    position: absolute;
+    width: 1.9rem;
+    height: 3rem;
+    top: 0.1rem;
+    left: 1.2rem;
+    
+}
+
+.titulo-pincipal{
+    position: absolute;
+    width: 21.43rem;
+    top: 1.2rem;
+    left: 2.1rem;
+    text-align: center;
+    font-size: 25px;
+}
+.textarea1{
+    position: absolute;
+    width: 90%;
+    height: 360px;
+    left: 16px;
+    top: 5.5rem;
+    padding: 0 0 0 10px;
+
+}
+
+.advertencia{
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 16px;
+    top: 460px;
+}
+
+.encriptar{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    top: 30.5rem;
+    left: 16px;
+    width: 90%;
+    height: 67px;
+    
+}
+
+.desencriptar{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    padding: 24px;
+    gap: 8px;
+    top: 36.1rem;
+    left: 16px;
+    width: 90%;
+    height: 67px;
+}
+
+#rectangulo{
+    display: absolute;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 32px;
+
+    position: absolute;
+    width: 75%;
+    height: 430px;
+    left: 16px;
+    top: 45rem;
+    
+    
+}
+
+#oculta{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 75%;
+    height: 455px;
+    left: 48px;
+    top: 46.3rem;
+}
+
+#muneco{
+    width: 100%;
+    margin-top: 20px;
+    left: 0px;
+}
+
+
+.textarea2{
+    position: absolute;
+    width: 279px;
+    height: 360px;
+    left: 48px;
+    top: 46rem;
+    margin: 0;
+}
+
+.copiar{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+    padding: 24px;
+    gap: 8px;
+    top: 69rem;
+    left: 48px;
+    
+    width: 74.4%;
+    height: 67px;
+}
+
+#footer{
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    top: 77rem;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0;
+    text-align: center;
+    
+}
+
+}
+
+@media only screen and (min-width: 748px) and (max-width: 1023px){
+
+
+
+h1{
+    position: absolute;
+    width: 31px;
+    height: 46px;
+    left: 5.21%;
+    top: 3%;
+
+
+}
+
+.titulo-pincipal{
+
+    top: 2.5%;
+    left: 12.5%;
+}
+
+.textarea1{
+
+    position: absolute;
+    width: 43rem;
+    height: 18rem;
+    left: 40px;
+    top: 8rem;
+    padding: 0 0 0 10px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.advertencia{
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 2.5rem;
+    top: 27rem;
+}
+
+.encriptar{
+    top:29rem;
+    left:2.5rem;
+}
+
+.desencriptar{
+    top: 29rem;
+    left: 24.75rem;
+}
+
+#rectangulo{
+    position: absolute;
+    width: 43rem;
+    height: 21.44rem;
+    left: 2.5rem;
+    top: 36rem;
+    margin-bottom: 80px;
+}
+
+#oculta{
+    
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 40rem;
+    height: 21rem;
+    left: 4.2rem;
+    top: 36.3rem;
+    text-align: center;
+}
+
+#muneco{
+    width: 35%;
+    margin-top: 0;
+    margin-left: 0;
+    
+}
+
+.textarea2{
+    position: absolute;
+    width: 39rem;
+    height: 11.25rem;
+    left: 4.5rem;
+    top: 42rem;
+    margin: 0;
+}
+
+.copiar{
+    width: 39rem;
+    top: 51rem;
+    left: 4.5rem;
+}
+
+
+#footer{
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0;
+    text-align: center;
+    
+}
+
+
+}
+
+
+
+
+
+

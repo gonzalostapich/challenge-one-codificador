@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+
+    <body>
+        <div id="pagina">
+            <header>
+                <div id="header">
+                    <h1><img src="imagenes/logo.png" alt="Logo de Encriptador"></h1>
+                    <h2 class="titulo-pincipal">Encriptador/desencriptador</h2>
+                </div>
+            </header>
+            
+
+            <main>
+                <section>
+
+                    <textarea id="entrada" cols="40" rows="8" class="textarea1" placeholder="Ingrese el texto aqui"></textarea>
+
+                    <div>
+                        <p class="advertencia"><img src="imagenes/exclamacion.png">Solo letras minúsculas y sin acentos</p>
+                        <button id="encriptar" class="encriptar">Encriptar</button>
+                        <button id="desencriptar" class="desencriptar">Desencriptar</button>
+                    </div>
+
+                </section>
+                
+                
+                <section class="mensaje">
+
+                    <div id="rectangulo"></div>
+                    <textarea id="salida" cols="18" rows="8" class="textarea2"></textarea>
+                    <button id="copiar" class="copiar">Copiar</button>
+
+                    <div id="oculta">
+                        <img src="imagenes/Muñeco.png" id="muneco" alt="imagen mensaje no encontrado">
+                        <h2 id="aviso">Ningún mensaje fue encontrado</h2>
+                        <h3 id="sugerencia">Ingresa el texto que desees encriptar o desencriptar.</h3>
+                    </div>
+
+                </section>    
+            
+            </main>
+
+            <footer>
+                <div id="footer">
+                    <p class="creador">Realizado por Gonzalo Stapich</p>
+
+                    <nav>
+                        <ul>
+                            <li><a href="https://www.facebook.com/gonzalo.stapich"target="_blank"><img loading="lazy" src="imagenes/facebook.png"></a></li>
+                            <li><a href="https://www.linkedin.com/in/gonzalo-stapich/"target="_blank"><img loading="lazy" src="imagenes/linkedIn.png"></a></li>
+                            <li><a href="https://github.com/gonzalostapich" target="_blank"><img loading="lazy" src="imagenes/github2.svg"></a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+            
+
+            </footer>
+            
+        </div>
+
+        <script src="encriptador.js"></script>
+       
+    </body>
+
+    
+
+</html>
